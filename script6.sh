@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #Purpose: Validate and report Student subject marks
 #Author: KOTIREDDY BADAM
