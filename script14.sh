@@ -10,10 +10,6 @@ sleep 3
 
 git commit -m "$2  update"
 
-echo "******************************************"
-echo ""
-sleep 3
-
 echo "git commit successfuly"
 
 echo "******************************************"
