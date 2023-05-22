@@ -1,11 +1,14 @@
 #!/bin/bash
 
-#FILES="script14.sh"
-
-#echo files is set to $FILES
-
 git add $1
 
-git commit -m "automated update"
+echo "git file added successfuly"
+
+git commit -m "$2  update"
+
+echo "git commit successfuly"
 
 git push -u origin main
+
+echo "git file push main successfuly"
+
