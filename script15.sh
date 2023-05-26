@@ -1,29 +1,8 @@
 #!/bin/bash
-echo "All Scripts"
-ls
-sleep 3
-echo "******************************"
-git add $1
-if [ $? -eq 0 ];then
-echo "git file added successfuly"
-else
-echo "git file not found"
-echo "******************************"
-fi
-echo "******************************"
-git commit -m "$2  update"
-if [ $? -eq 0 ];then
-echo "git file update successfuly"
-else
-echo "git file not update"
-echo "******************************"
-fi
-echo "******************************"
-git push -u origin main
-if [ $? -eq 0 ];then
-echo "git file push main successfuly"
-else
-echo "git file not pushed got error"
-fi
-echo "******************************"
+i=0
 
+while [ $i -lt $2 ]; do 
+  date &
+  sleep $1
+  i=$(( i + 1 ))
+done
